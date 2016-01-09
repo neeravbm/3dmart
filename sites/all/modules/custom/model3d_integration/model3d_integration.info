@@ -1,0 +1,4 @@
+name = Model3D Integration
+description = Integration with Model3D library.
+package = Custom
+core = 7.x

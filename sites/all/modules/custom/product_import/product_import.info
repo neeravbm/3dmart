@@ -1,0 +1,4 @@
+name = Product Import
+description = Import a product.
+package = Custom
+core = 7.x

@@ -1,0 +1,89 @@
+<?php
+
+/**
+ * @file
+ *
+ * Import product.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function product_import_menu() {
+  $items = array();
+
+  $items['admin/config/system/product_import'] = array(
+    'title' => 'Import product',
+    'description' => 'Import product from files.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('product_import_form'),
+    'access arguments' => array('create product entities'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  return $items;
+}
+
+function product_import_form($form) {
+  $form = array();
+
+  $form['object_model'] = array(
+    '#type' => 'file',
+    '#title' => t('Object model'),
+    //'#required' => TRUE,
+  );
+
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Submit'),
+  );
+
+  return $form;
+}
+
+function product_import_form_validate($form, &$form_state) {
+  $filename = file_save_upload('object_model', array('file_validate_extensions' => array('zip')));
+  if (!$filename) {
+    return;
+  }
+
+  $zip = new ZipArchive();
+  $res = $zip->open(drupal_realpath($filename->uri));
+  if (!$res) {
+    return;
+  }
+
+  $directory = 'temporary://objects/' . substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 10);
+  $zip->extractTo($directory);
+  $zip->close();
+
+  libraries_load('Model3D');
+
+  $objects = array();
+  $directory_realpath = drupal_realpath($directory);
+  $object_files = file_scan_directory($directory, '/.*\.obj$/', array('recurse' => TRUE));
+  foreach ($object_files as $uri => $file) {
+    $handle = fopen($uri, 'r');
+    if (!$handle) {
+      continue;
+    }
+
+    $objectLoader = new \Model3D\ObjectLoader(str_replace($directory . '/', '', $uri), $directory_realpath);
+    if ($error = $objectLoader->getError()) {
+      form_set_error('', $error);
+      return;
+    }
+
+    $objects = array_merge($objects, $objectLoader->objects);
+  }
+
+  $form_state['values']['objects'] = $objects;
+}
+
+function product_import_form_submit($form, &$form_state) {
+  $objects = $form_state['values']['objects'];
+  module_load_include('inc', 'model3d_integration', 'model3d_integration.pages');
+  foreach ($objects as $object) {
+    $object_node = model3d_integration_save_object($object);
+  }
+}

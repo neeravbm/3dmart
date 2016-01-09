@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e6a79a5-19b5-4dc3-b7ca-65da67b486b4" name="Default" comment="" />
+    <ignored path="3dmart.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="3dmart" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="render_product_display.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/render_product_display.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="0" selection-start="1693" selection-end="1980" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1740">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="three.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/three.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35320" column="35" selection-start="931239" selection-end="931247" vertical-scroll-proportion="2.0384614" vertical-offset="529853" max-vertical-offset="542685">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrbitControls.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/OrbitControls.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16815">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaytracingWorker.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/RaytracingWorker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="8700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransformControls.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/TransformControls.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="789" column="45" selection-start="21232" selection-end="21232" vertical-scroll-proportion="0.0" vertical-offset="11835" max-vertical-offset="17130">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="render_scene.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/render_scene.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.73570323" vertical-offset="184" max-vertical-offset="1605">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model3d_common.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/model3d_common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="187" column="28" selection-start="7168" selection-end="7168" vertical-scroll-proportion="0.0" vertical-offset="3495" max-vertical-offset="5835">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model3d_integration.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/model3d_integration.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="117" column="88" selection-start="4505" selection-end="4505" vertical-scroll-proportion="-19.791666" vertical-offset="1220" max-vertical-offset="2445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model3d_object_resource.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/resources/model3d_object_resource.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="32" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="render_object.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/render_object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4095">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/product_import/product_import.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/3d_integration/3d_integration.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/3d_integration/3d_integration.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/model3d_integration.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/product_import/product_import.admin.inc" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/Model3D/ObjectLoader.php" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/Model3D/MaterialLoader.php" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/Model3D/Mesh.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/product_import/product_import.module" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/Model3D/Group.php" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/Model3D/Material.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/3dmart_theme/3dmart_theme.info" />
+        <option value="$PROJECT_DIR$/sites/all/themes/3dmart_theme/template.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/mart/templates/node--object.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/Model3D/Utils.php" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/Model3D/Texture.php" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/Model3D/Object.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/TransformControls.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/RaytracingRenderer.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/three.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/RaytracingWorker.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/render_object.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/resources/3dmart_json_object_resource.inc" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/resources/model3d_object_resource.inc" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/model3d_integration.pages.inc" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/model3d_integration.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/render_product_display.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/model3d_common.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/render_scene.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server deployment_server="7928e5c2-8e1d-4437-a1cb-c29aea723ea5" host="localhost" name="localhost" validation_dir="$PROJECT_DIR$" />
+    </option>
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="." />
+      <path value="/usr/local/Cellar/php53/5.3.27/lib/php" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="790" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bartik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bartik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product_import" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model3d_integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model3d_integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model3d_integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model3D" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="last_opened_file_path" value="/tmp/cachegrind.out.16127" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/3dmart_theme/templates" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/3dmart_theme" />
+      <recent name="$PROJECT_DIR$/sites/all/modules/custom/3d_integration" />
+      <recent name="$PROJECT_DIR$/sites/all/modules/custom/product_import" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.localhost">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/3dmart">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="7928e5c2-8e1d-4437-a1cb-c29aea723ea5" server_name="localhost">
+      <method />
+    </configuration>
+    <configuration default="false" name="localhost" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/3dmart">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.localhost" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e6a79a5-19b5-4dc3-b7ca-65da67b486b4" name="Default" comment="" />
+      <created>1450919319535</created>
+      <updated>1450919319535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="790" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27181688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3982808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32808024" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/sites/all/libraries/Model3D/ObjectLoader.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/sites/all/libraries/Model3D/ObjectLoader.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/sites/all/libraries/Model3D/Object.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="85" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/model3d_integration.pages.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0" vertical-offset="554" max-vertical-offset="5025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/Utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="19" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/Texture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="2445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/product_import/product_import.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/product_import/product_import.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="54" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/node/node.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3119" column="9" selection-start="102504" selection-end="102504" vertical-scroll-proportion="0.0" vertical-offset="46785" max-vertical-offset="63030">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/commerce/modules/product/commerce_product.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="303" column="31" selection-start="8676" selection-end="8676" vertical-scroll-proportion="0.0" vertical-offset="4545" max-vertical-offset="15075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/commerce/commerce.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1065" column="9" selection-start="34819" selection-end="34819" vertical-scroll-proportion="0.0" vertical-offset="15975" max-vertical-offset="20370" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/product_import/product_import.admin.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/commerce/commerce.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1065" column="9" selection-start="34819" selection-end="34819" vertical-scroll-proportion="-0.07109005" vertical-offset="15975" max-vertical-offset="20325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/commerce/modules/product/commerce_product.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="303" column="31" selection-start="8676" selection-end="8676" vertical-scroll-proportion="-0.11848341" vertical-offset="4545" max-vertical-offset="15000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/node/node.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3119" column="9" selection-start="102504" selection-end="102504" vertical-scroll-proportion="-0.09478673" vertical-offset="46785" max-vertical-offset="62970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/product_import/product_import.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="81" selection-end="81" vertical-scroll-proportion="0.06716418" vertical-offset="0" max-vertical-offset="670" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/module.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="906" column="0" selection-start="33833" selection-end="33833" vertical-scroll-proportion="-4.7916665" vertical-offset="13430" max-vertical-offset="17175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/model3d_integration.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="36" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/common.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4851" column="0" selection-start="184894" selection-end="184894" vertical-scroll-proportion="-4.7916665" vertical-offset="72560" max-vertical-offset="126525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/libraries/libraries.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="541" column="5" selection-start="17763" selection-end="17763" vertical-scroll-proportion="-4.44" vertical-offset="7893" max-vertical-offset="13125">
+          <folding>
+            <element signature="e#7#72#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/product_import/product_import.admin.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="82" selection-end="82" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="529" selection-end="529" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/Mesh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/Group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/mart/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/mart/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/mart/mart.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/mart/templates/node--object.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="6" selection-start="4892" selection-end="4892" vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="1980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/MaterialLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="27" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.5778491" vertical-offset="480" max-vertical-offset="1215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/Material.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="18" selection-start="695" selection-end="695" vertical-scroll-proportion="-8.958333" vertical-offset="790" max-vertical-offset="7530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/Utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="1254" selection-end="1254" vertical-scroll-proportion="-14.25" vertical-offset="603" max-vertical-offset="1680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/stream_wrappers.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="683" column="0" selection-start="19261" selection-end="19261" vertical-scroll-proportion="0.0" vertical-offset="10245" max-vertical-offset="12600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/file.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2121" column="0" selection-start="77380" selection-end="77380" vertical-scroll-proportion="0.0" vertical-offset="31815" max-vertical-offset="38580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/product_import/product_import.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="36" selection-start="1623" selection-end="1623" vertical-scroll-proportion="-15.958333" vertical-offset="607" max-vertical-offset="1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/Texture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1495" selection-end="1495" vertical-scroll-proportion="-4.7916665" vertical-offset="875" max-vertical-offset="2565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/ObjectLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="42" selection-start="970" selection-end="970" vertical-scroll-proportion="-9.166667" vertical-offset="380" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/Model3D/Object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-4.7916665" vertical-offset="575" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/ajax.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="498" column="0" selection-start="23229" selection-end="23229" vertical-scroll-proportion="-18.333334" vertical-offset="6985" max-vertical-offset="19800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/bootstrap.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="968" column="0" selection-start="31454" selection-end="31454" vertical-scroll-proportion="0.0" vertical-offset="14520" max-vertical-offset="53610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/cache.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="8790">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/TransformControls.js.old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="779" column="23" selection-start="21008" selection-end="21013" vertical-scroll-proportion="14.185185" vertical-offset="12068" max-vertical-offset="17130">
+          <folding>
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="/** @author arodic / https://github.com/arodic ...*/" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451430908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/RaytracingRenderer.js.webworker">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="289" column="0" selection-start="6596" selection-end="6596" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="4425">
+          <folding>
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="/** RaytracingRenderer renders by raytracing it's scene. However, it does not ...*/" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{&quot;render&quot;: true...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{&quot;mirror&quot;: 1...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1451491932000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/RaytracingWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/TransformControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="789" column="45" selection-start="21232" selection-end="21232" vertical-scroll-proportion="0.0" vertical-offset="10500" max-vertical-offset="17100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/resources/model3d_object_resource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/OrbitControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16815">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/render_object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/model3d_integration.pages.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="59" selection-start="7296" selection-end="7296" vertical-scroll-proportion="24.791666" vertical-offset="4000" max-vertical-offset="10200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/model3d_integration.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="88" selection-start="4505" selection-end="4505" vertical-scroll-proportion="-19.791666" vertical-offset="1220" max-vertical-offset="2445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/render_product_display.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1693" selection-end="1980" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35320" column="35" selection-start="931239" selection-end="931247" vertical-scroll-proportion="2.0384614" vertical-offset="529853" max-vertical-offset="542685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/model3d_common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="28" selection-start="7168" selection-end="7168" vertical-scroll-proportion="0.0" vertical-offset="3495" max-vertical-offset="5835">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/model3d_integration/js/render_scene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.73570323" vertical-offset="184" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -1,0 +1,162 @@
+<?php
+
+/**
+ * @file
+ *
+ * Integration with Model3D library.
+ */
+
+/**
+ * Implements hook_libraries_info().
+ */
+function model3d_integration_libraries_info() {
+  $libraries['Model3D'] = array(
+    'name' => 'Model 3D',
+    'vendor url' => 'http://redcrackle.com',
+    'download url' => 'http://redcrackle.com',
+    'version callback' => 'model3d_version_callback',
+    'files' => array(
+      'php' => array(
+        'Utils.php',
+        'Texture.php',
+        'Material.php',
+        'Mesh.php',
+        'Group.php',
+        'Object.php',
+        'MaterialLoader.php',
+        'ObjectLoader.php',
+      ),
+    ),
+  );
+
+  return $libraries;
+}
+
+/**
+ * Version callback for library.
+ *
+ * @return bool
+ *   Returns TRUE.
+ */
+function model3d_version_callback() {
+  return TRUE;
+}
+
+/**
+ * Implements hook_menu().
+ */
+function model3d_integration_menu() {
+  $items = array();
+
+  $items['node/%node/array'] = array(
+    'title' => 'Array representation',
+    'access callback' => TRUE,
+    'delivery callback' => 'drupal_json_output',
+    'page callback' => 'model3d_integration_convert_node_to_array',
+    'page arguments' => array(1),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'model3d_integration.pages.inc',
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function model3d_integration_preprocess_node(&$vars) {
+  if ($vars['type'] == 'object' && $vars['view_mode'] == 'full') {
+    module_load_include('inc', 'model3d_integration', 'model3d_integration.pages');
+    $vars['object_json'] = array(
+      '#attached' => array(
+        'js' => array(
+          'https://cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.js' => array('type' => 'external'),
+          array(
+            'data' => array('model3d_integration' => array('object' => model3d_integration_convert_object_node_to_array($vars['node']))),
+            'type' => 'setting',
+          ),
+          drupal_get_path('module', 'model3d_integration') . '/js/OrbitControls.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/model3d_common.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/render_object.js' => array('scope' => 'footer'),
+        ),
+      ),
+    );
+  }
+  elseif ($vars['type'] == 'product_display' && $vars['view_mode'] == 'full') {
+    module_load_include('inc', 'model3d_integration', 'model3d_integration.pages');
+    $vars['product_display_json'] = array(
+      '#attached' => array(
+        'js' => array(
+          drupal_get_path('module', 'model3d_integration') . '/js/three.js',
+          array(
+            'data' => array('model3d_integration' => array('product_display' => model3d_integration_convert_product_display_node_to_array($vars['node']))),
+            'type' => 'setting',
+          ),
+          drupal_get_path('module', 'model3d_integration') . '/js/TransformControls.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/OrbitControls.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/RaytracingRenderer.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/model3d_common.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/render_product_display.js' => array('scope' => 'footer'),
+        ),
+      ),
+    );
+  }
+  elseif ($vars['type'] == 'scene' && $vars['view_mode'] == 'full') {
+    module_load_include('inc', 'model3d_integration', 'model3d_integration.pages');
+    $vars['scene_json'] = array(
+      '#attached' => array(
+        'js' => array(
+          drupal_get_path('module', 'model3d_integration') . '/js/three.js',
+          array(
+            'data' => array('model3d_integration' => array('scene' => model3d_integration_convert_scene_node_to_array($vars['node']))),
+            'type' => 'setting',
+          ),
+          drupal_get_path('module', 'model3d_integration') . '/js/TransformControls.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/OrbitControls.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/RaytracingRenderer.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/model3d_common.js' => array('scope' => 'footer'),
+          drupal_get_path('module', 'model3d_integration') . '/js/render_scene.js' => array('scope' => 'footer'),
+        ),
+      ),
+    );
+  }
+}
+
+/**
+ * Implements hook_services_resources().
+ */
+function model3d_integration_services_resources() {
+  return array(
+    'model3d object' => array(
+      'operations' => array(
+        'retrieve' => array(
+          'file' => array(
+            'type' => 'inc',
+            'module' => 'model3d_integration',
+            'name' => 'resources/model3d_object_resource',
+          ),
+          'callback' => '_model3d_object_retrieve',
+          'args' => array(
+            array(
+              'name' => 'type',
+              'optional' => FALSE,
+              'source' => array('path' => 0),
+              'type' => 'string',
+              'description' => t('Type of object to retrieve: scene, product or individual object.'),
+            ),
+            array(
+              'name' => 'id',
+              'optional' => FALSE,
+              'source' => array('path' => 1),
+              'type' => 'int',
+              'description' => t('Id of the object to be retrieved.'),
+            ),
+          ),
+          'access callback' => '_model3d_object_access',
+          'access arguments' => array('view'),
+          'access arguments append' => TRUE,
+        ),
+      ),
+    ),
+  );
+}
